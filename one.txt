@@ -1,0 +1,520 @@
+//first
+technology evolution
+need of technology user interactions
+buisness grow ajax, js frameworks 
+ small components it because progrmmers UI , 
+ Application
+CSA client server Architecture, 
+front-end back-end , full stack 
+html, css, js 
+basic tags
+
+HTML : Hyper Text Markup Language.
+DOM : Document Object Model : tree structure of elememts that we create
+
+<tag>
+</tag>
+HTML element
+<p>content </p>
+
+Their are two types : 
+container tags both open and close paired
+empty tags only opening tag self close unpaired  <img>   // br,hr img link
+
+lower case letters 
+
+<html> <head> <title> <body>
+//second 
+
+
+1--HTML elements can be nested (this means that elements can contain other elements).
+
+h1-h6, p <p> tags
+2--HTML attributes provide additional information about HTML elements.
+
+HTML Attributes
+All HTML elements can have attributes
+Attributes provide additional information about elements
+Attributes are always specified in the start <tag>
+Attributes usually come in name/value pairs like: name="value"
+eg: In english if we describe about Apple we describe using 
+adjectives(visheshan)
+same way attributes describe tags or elements.
+    
+    link tag
+    img tag
+
+<img src="img_girl.jpg" alt="Girl with a jacket" >
+
+3--The style Attribute
+The style attribute is used to add styles to an element, such as color, font, size, and more.
+
+<p style="color:red;">This is a red paragraph.</p>
+
+Always Quote Attribute Values
+
+4--This poem will display on a single line:
+
+<p>
+Nature's first green is gold,
+Her hardest hue to hold.
+Her early leaf's a flower;
+But only so an hour
+</p>
+
+<pre>
+Nature's first green is gold,
+Her hardest hue to hold.
+Her early leaf's a flower;
+But only so an hour
+</pre>
+background-color,color,font-family,font-size,text-align
+
+formatting elements
+
+<b> - Bold text </b>
+<strong> - Important text html 5
+<i> - Italic text
+<em> - Emphasized text html 5
+<mark> - Marked text higlight
+<small> - Smaller text
+<del> - Deleted text strike off
+<ins> - Inserted text // this check underline
+<sub> - Subscript text H20
+<sup> - Superscript text 10 th
+
+HTML comments for our <!-- comments in html-->
+
+//class 3
+
+How To Add a Favicon in HTML
+You can use any image you like as your favicon. You can also create your own favicon on sites like https://www.favicon.cc
+
+Tip: A favicon is a small image, so it should be a simple image with high contrast.
+
+A favicon image is displayed to the left of the page title in the browser tab.
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page Title</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  // add borders
+  <style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+// collapsed borders
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+//th, td {
+  background-color: #96D4D4;
+}
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+
+tables: allow developers to add data in rows and columns
+<table >
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+
+// add table headers:
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+
+// vertical column Heading
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <td>Jill</td>
+    <td>Eve</td>
+  </tr>
+  <tr>
+    <th>Lastname</th>
+    <td>Smith</td>
+    <td>Jackson</td>
+  </tr>
+  <tr>
+    <th>Age</th>  
+    <td>50</td>
+    <td>94</td>
+  </tr>
+</table>
+
+cell padding :
+Cell padding is the space between the cell edges and the cell content.
+
+By default the padding is set to 0.
+
+To add padding on table cells, use the CSS padding property:
+
+
+cell spacing:
+
+Cell spacing is the space between each cell.
+
+By default the space is set to 2 pixels.
+
+To change the space between table cells, use the CSS border-spacing property on the table element:
+
+//lists styles
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+</style>
+</head>
+<body>
+
+<h2>The list-style-type Property</h2>
+
+<p>Example of unordered lists:</p>
+<ul class="a" type="square">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+
+<ul class="b" list-style-type>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+
+<p>Example of ordered lists:</p>
+<ol class="c" >
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ol>
+
+<ol class="d">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ol>
+
+</body>
+</html>
+p 
+img 
+p
+
+block and inline elememts
+
+a link
+span // as much needed
+image iframe 
+
+div // entire space of the device block level elements
+p
+
+a tag hyperlinks 
+class and id selector
+
+// class4
+
+1) HTML i-frames:
+
+An HTML iframe is used to display a web page within a web page.
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Iframes</h2>
+<p>You can also use the CSS height and width properties to specify the size of the iframe:</p>
+
+<iframe src="demo_iframe.html" style="height:200px;width:300px" title="Iframe Example"></iframe>
+
+</body>
+</html>
+
+semantic tags: (describing itself / meaningful)
+The tag itself describes what it is meant for.
+ it describes the meaning of the tag and it may create a 
+ block or inline element.
+
+2) Block level elememts and inline elememts
+
+Here are the block-level elements in HTML:
+
+Entire width of the screen:
+most of the block level are semantic elements
+<address><article><aside><blockquote><canvas><dd><div><dl><dt><fieldset>
+<figcaption><figure><footer><form><h1>-<h6><header><hr><li><main><nav>
+<noscript><ol><p><pre><section><table><tfoot><ul>
+
+Here are the inline elements in HTML:
+
+which takes the space as much as it is needed.
+
+<a><abbr><acronym><b><bdo><big><br><button><cite><code><dfn><em><i><img>
+<input><kbd><label><map><object><output><q><samp><script><select><small>
+<span><strong><sub><sup><textarea><time><tt><var><video>
+
+
+---> stylesheets priorities
+inline
+based on the files added in head section 
+the style will take priorities.
+
+3) HTML responsive 
+Responsive web design is about creating web pages that look good on 
+all devices!
+
+A responsive web design will automatically adjust for different screen 
+sizes and viewports.
+
+This will set the viewport of your page, which will give the browser instructions on how to control the page's dimensions and scaling.
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+4) semantic elements: 
+HTML5 Semantic Elements	(meaningful)describe themselves
+<header> - Defines a header for a document or a section
+<nav> - Defines a set of navigation links
+<section> - Defines a section in a document
+<article> - Defines an independent, self-contained content
+<aside> - Defines content aside from the content (like a sidebar)
+<footer> - Defines a footer for a document or a section
+<details> - Defines additional details that the user can open and close on demand
+<summary> - Defines a heading for the <details> element
+
+HTML layout structure
+
+
+
+
+5) 
+//class 5
+
+p>Reserved characters in HTML must be replaced with character entities.
+
+  HTML Entities
+  Some characters are reserved in HTML.
+  
+  If you use the less than (<) or greater than (>) signs in your text, the browser might mix them with tags.
+  
+  Character entities are used to display reserved characters in HTML.
+  
+  A character entity looks like this:
+  
+  &entity_name;
+  OR
+  
+  &#entity_number;
+  To display a less than sign (<) we must write: &lt; or &#60;
+
+  <p>I will display A B C</p>
+<p>I will display &#65; &#66; &#67;</p>
+</p>
+
+        <h1>HTML Entity Example</h1>
+
+<h2>The copyright sign: &copy;</h2>
+
+<h2>The euro sign: &euro;</h2>
+<h2>The registered trade mark sign: &reg;</h2>
+
+A commonly used entity in HTML is the non-breaking space: &nbsp;
+10 am
+p>Reserved characters in HTML must be replaced with character entities.
+
+  HTML Entities
+  Some characters are reserved in HTML.
+  
+  If you use the less than (<) or greater than (>) signs in your text, the browser might mix them with tags.
+  
+  Character entities are used to display reserved characters in HTML.
+  
+  A character entity looks like this:
+
+UTF-8 stands for 8-bit Unicode Transformation Format.
+
+It‘s a character set with almost all known characters, punctuations, and symbols.
+
+UTF-8 includes tens of thousands of characters that are used world-wide.
+
+HTML5 uses UTF-8 as character encoding by default.
+
+  &entity_name;
+  OR
+  
+  &#entity_number;
+  To display a less than sign (<) we must write: &lt; or &#60;
+
+  <p>I will display A B C</p>
+<p>I
+You16:50
+A commonly used entity in HTML is the non-breaking space: &nbsp;
+You16:53
+<h2>A space character:  &nbsp 
+10 am;</h2>
+You16:57
+<h1>My First Emoji</h1>
+
+<p>&#128512;</p>
+<h1>Sized Emojis</h1>
+
+<p style="font-size:48px">
+&#128512; &#128516; &#128525; &#128151;
+</p>
+You16:59 &copy
+<h2>The trademark symbol: &trade;</h2>
+HTml entities
+//class 6
+video controls autoplay
+audio controls autoplay
+ 
+added graphics 2d 
+canvas
+scalable vector graphics
+ before video media 
+ html entity reference
+https://www.toptal.com/designers/htmlarrows/
+
+
+//class 7
+
+HTML Layout Techniques
+There are four different techniques to create multicolumn layouts. Each technique has its pros and cons:
+
+CSS framework bootstrap
+CSS float property
+CSS flexbox
+CSS grid
+
+****
+The basic difference between CSS grid layout and CSS flexbox layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time
+
+//class 8
+form is created using form element
+
+The action attribute specifies where to send the form-data when a form is submitted.
+
+<form action="URL">
+
+method will be get / post
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The legend element</h1>
+
+<form action="">
+ <fieldset>
+  <legend>Personalia:</legend>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+  <input type="submit" value="Submit">
+ </fieldset>
+</form>
+
+
+// opt group forms
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The optgroup element</h1>
+
+<p>The optgroup tag is used to group related options in a drop-down list:</p>
+
+<form action="database_url" method="post" >// url
+  <label for="cars">Choose a car:</label>
+  <select name="cars" id="cars">
+    <optgroup label="Swedish Cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+    </optgroup>
+    <optgroup label="German Cars">
+      <option value="mercedes">Mercedes</option>
+      <option value="audi">Audi</option>
+    </optgroup>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+
+ // third element
+ Perform a calculation and show the result in an <output> element:
+
+
+ <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  <input type="range" id="a" value="50">
+  +<input type="number" id="b" value="25">
+  =<output name="x" for="a b"></output>
+</form>
+
+
+</body>
+</html>
+
+//grid layouts
+
+
